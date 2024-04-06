@@ -44,6 +44,7 @@ svg {
 .menu {
   display: flex;
   flex-wrap: wrap;
+   
   /* border: 2px solid blue; */
   gap: 20px;
   justify-content: center;
@@ -51,6 +52,7 @@ svg {
   /* justify-content: space-around; */
   margin-right: 100px;
 }
+
 .container {
   /* border: 2px solid green; */
   width: 100%;
@@ -129,6 +131,12 @@ button a{
 .services img {
   width: 200px;
   border-radius: 10%;
+  transition: all  .4s ease-in-out;
+  cursor: pointer;
+}
+.services img:hover{
+
+  transform: scale(1.1);
 }
 .service-box {
   padding: 20px;
@@ -164,6 +172,13 @@ button a{
     font-family: sans-serif;
     font-weight: 700;
 }
+.about-heading p{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+
 .about-items {
   /* border: 2px solid  green; */
   padding: 10px;
@@ -214,9 +229,9 @@ ul {
   font-weight: 600;
 }
 .contact-head h3{
-  font-size: 16px;
+  font-size: 20px;
   font-family: sans-serif;
-  font-weight: 300;
+  font-weight: 500;
 }
 .contact-container{
   height: 80vh;
@@ -296,4 +311,4 @@ button{
     box-shadow: 2px 2px px black;
     cursor: pointer;
 }
-/* media query */
+
