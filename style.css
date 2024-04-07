@@ -163,6 +163,9 @@ button a{
 
   /* justify-content: center; */
 }
+.service-box h3{
+  font-family: "Bungee Spice", sans-serif ;
+}
 /* about us */
 .aboutus {
   width: 100%;
